@@ -25,8 +25,13 @@ class FilmModel {
         console.error("Error:", error);
       });
   }
-  adatkivesz(adat) {
-    console.log("Modeldata:  ",adat)
+  adatkivesz(adat,myCallBack) {
+    this.#filmektomb.forEach(film=>{
+      if(adat== film){
+        film.keszleten--
+      }
+      myCallBack(this.#filmektomb)
+    })
   }
 }
 export default FilmModel;

@@ -8,7 +8,7 @@ class FilmController{
        
         $(window).on("kolcsonoz", (event)=>{
             console.log("Kölcsönzés történt: Controller", event.detail)
-            filmmodel.adatkivesz(event.detail)
+            filmmodel.adatkivesz(event.detail, this.FilmAdatok)
 
         })
     }

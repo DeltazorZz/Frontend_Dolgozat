@@ -17,7 +17,6 @@ class FilmView{
 
         this.kolcsonElem.on("click", ()=>{
             console.log("Kölcsönzés történt: View")
-            this.#elem.keszleten =  $(elem.keszleten-1)
              this.KattintasTrigger("kolcsonoz");
         });
     }
