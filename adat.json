@@ -1,0 +1,25 @@
+{
+    "filmek":[
+        {
+            "id":1,
+            "cim":"Avatar",
+            "kiadas": 2009,
+            "rendezo": "James Cameron",
+            "keszleten": 40
+        },
+        {
+            "id":2,
+            "cim":"Star Wars I. rész: Baljós árnyak ",
+            "kiadas": 1999,
+            "rendezo": "George Lucas",
+            "keszleten": 80
+        }, 
+        {
+            "id":3,
+            "cim":"Uncharted",
+            "kiadas": 2022,
+            "rendezo": "Ruben Fleischer",
+            "keszleten": 50
+        }
+    ]
+}
